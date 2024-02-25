@@ -7,7 +7,7 @@ Here's the architecture of the CNN that I found most effective for this project:
 2) Convolutional Layers: The model consists of three convolutional layers, each followed by a ReLU activation function. These layers extract features from the input images using small filters (3x3) and produce feature maps.
 3) Pooling Layers: Two max-pooling layers follow the convolutional layers. They reduce the spatial dimensions of the feature maps while retaining the most important information. Max-pooling is performed over 2x2 windows.
 4) Flatten Layer: After the convolutional and pooling layers, the feature maps are flattened into a one-dimensional array. This prepares the data for the fully connected layers.
-5)Fully Connected Layers: Two dense (fully connected) layers with ReLU activation functions are added. These layers learn high-level features from the flattened data.
+5) Fully Connected Layers: Two dense (fully connected) layers with ReLU activation functions are added. These layers learn high-level features from the flattened data.
 6) Output Layer: The output layer consists of 10 neurons, each corresponding to one of the digits (0-9). It uses the softmax activation function to compute the probability distribution over the classes.
 
 # Steps of the training
